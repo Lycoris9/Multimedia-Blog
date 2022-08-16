@@ -245,3 +245,31 @@ a {
 #learnbody{
    background-color: #ffffff;
 }
+
+#bottomhalffirst{
+   background-color: black;
+}
+
+#intro{
+   background-color: rgb(24, 23, 23);
+   color: white;
+}
+
+#creators{
+   display: flex;
+   justify-content: space-around;
+}
+
+#photo{
+   width: 500px;
+}
+
+#about{
+display: flex;
+justify-content: center;
+}
+
+#dtext, #atext, #itext{
+   display: flex;
+   justify-content: center;
+}
