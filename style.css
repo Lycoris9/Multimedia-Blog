@@ -219,11 +219,11 @@ a {
    height: 120px;
 }
 
-#hack{
+#hack {
    margin-left: 20%;
 }
 
-#fullstack{
+#fullstack {
    margin-right: 90%;
 
 }
@@ -252,72 +252,88 @@ a {
    justify-content: column;
 }
 
-#learnbody{
+#learnbody {
    background-color: #ffffff;
 }
 
-#bottomhalffirst{
+#bottomhalffirst {
    background-color: black;
 }
 
-#intro{
+#intro {
    background-color: rgb(24, 23, 23);
    color: white;
 }
 
-#creators{
+#creators {
    display: flex;
    justify-content: space-around;
 }
 
-#photo{
+#photo {
    width: 500px;
 }
 
-#about{
-display: flex;
-justify-content: center;
-}
-
-#dtext, #atext, #itext{
+#about {
    display: flex;
    justify-content: center;
 }
 
-#about2{
+#dtext,
+#atext,
+#itext {
+   display: flex;
+   justify-content: center;
+}
+
+#about2 {
    background-color: white;
 }
 
-#about{
+#about {
    background-color: white;
 }
-body{
+
+body {
    background-color: white;
 }
-#careerOptions{
+
+#careerOptions {
    display: flex;
    justify-content: space-between;
    font-size: 15px;
    margin-top: 5%;
    margin-left: .5%;
+   background-color: #e6e6e0;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px
 }
 
-#levels{
+#levels {
    width: 200px;
    display: flex;
    justify-content: center;
    margin-top: 15%;
 }
 
-#careerbio{
+#careerbio {
    margin-left: 2%;
    margin-top: 7%;
    margin-bottom: 2%;
 }
 
-#levelsalaries{
+#levelsalaries {
    display: flex;
    justify-content: center;
    margin-bottom: 2%;
    padding: 2%;
+   background-color: rgb(215, 215, 215);
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   font-size: 25px;
+    color:white;
 }
