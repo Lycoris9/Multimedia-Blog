@@ -1,6 +1,6 @@
 html {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: rgb(119, 122, 57);
+   background-color: rgb(97, 111, 36);
 }
 
 #big_div {
@@ -192,14 +192,15 @@ a {
    justify-content: space-evenly;
    height: 100px;
    margin-top: 5%;
-   margin-right: 13%;
+   margin-right: 15%;
+   margin-bottom: 2%;
 }
 
 #price_div {
    display: flex;
    justify-content: space-evenly;
    font-size: 15px;
-   margin-right: 3%;
+   margin-right: 1%;
 }
 
 #learnmore {
@@ -216,6 +217,15 @@ a {
 
 #flatitron {
    height: 120px;
+}
+
+#hack{
+   margin-left: 20%;
+}
+
+#fullstack{
+   margin-right: 90%;
+
 }
 
 #career.options {
@@ -272,4 +282,42 @@ justify-content: center;
 #dtext, #atext, #itext{
    display: flex;
    justify-content: center;
+}
+
+#about2{
+   background-color: white;
+}
+
+#about{
+   background-color: white;
+}
+body{
+   background-color: white;
+}
+#careerOptions{
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   margin-top: 5%;
+   margin-left: .5%;
+}
+
+#levels{
+   width: 200px;
+   display: flex;
+   justify-content: center;
+   margin-top: 15%;
+}
+
+#careerbio{
+   margin-left: 2%;
+   margin-top: 7%;
+   margin-bottom: 2%;
+}
+
+#levelsalaries{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2%;
+   padding: 2%;
 }
