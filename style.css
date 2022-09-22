@@ -3,20 +3,80 @@ html {
    background-color: rgb(97, 111, 36);
 }
 
+body {
+   margin:0;
+   padding:0;
+}
+
+* {
+   box-sizing:border-box;
+}
+
+.row::after {
+   content: "";
+   clear: both;
+   display: block;
+ }
+ 
+ [class*="col-"] {
+   float: left;
+   padding: 15px;
+ }
+
+ [class*="col-"] {
+   width: 100%;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .col-s-1 {width: 8.33%;}
+   .col-s-2 {width: 16.66%;}
+   .col-s-3 {width: 25%;}
+   .col-s-4 {width: 33.33%;}
+   .col-s-5 {width: 41.66%;}
+   .col-s-6 {width: 50%;}
+   .col-s-7 {width: 58.33%;}
+   .col-s-8 {width: 66.66%;}
+   .col-s-9 {width: 75%;}
+   .col-s-10 {width: 83.33%;}
+   .col-s-11 {width: 91.66%;}
+   .col-s-12 {width: 100%;}
+   #big_div {
+      font-size: 10px
+   }
+ }
+ @media only screen and (min-width: 768px) {
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+   #big_div {
+      font-size: 25px;
+   }
+ }
+
 #big_div {
    font-family: Arial, Helvetica, sans-serif;
    background-color: #f0f275;
    color: rgb(255, 255, 255);
-   font-size: 20px;
    padding-top: 1%;
-   padding-bottom: 0.1%;
+   padding-bottom: 0%;
    display: flex;
    justify-content: space-between;
+   align-items: center;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
 }
+
 
 #logo_welcome h1 {
    overflow: hidden;
@@ -25,7 +85,7 @@ html {
    margin: 0 auto;
    letter-spacing: .15em;
    animation:
-      typing 5.5s steps(40, end),
+      typing 5.5s steps(50, end),
       blink-caret .75s step-end infinite;
 }
 
@@ -52,7 +112,7 @@ html {
 }
 
 #logo {
-   width: 150px;
+   width: 50%;
 }
 
 .items:hover {
@@ -72,12 +132,11 @@ a {
 #logo_welcome {
    background-color: #FEFFDA;
    display: flex;
-   justify-content: center;
 }
 
 #large_logo {
-   height: 450px;
-   margin-left: 9%;
+   width: 20%;
+   height: 30%;
 }
 
 #video {
@@ -271,7 +330,7 @@ a {
 }
 
 #photo {
-   width: 500px;
+   width: 50%;
 }
 
 #about {
