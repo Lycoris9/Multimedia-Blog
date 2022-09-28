@@ -37,6 +37,9 @@ body {
       width: 400px;
       height: 250px;
    }
+   #introduction {
+      font-size: 20px;
+   }
 }
 
 
@@ -60,7 +63,6 @@ body {
    overflow: hidden;
    border-right: .15em solid orange;
    white-space: nowrap;
-   /* font-size: 17px; */
    margin: 0 auto;
    letter-spacing: .15em;
    animation:
@@ -111,6 +113,7 @@ a {
 #logo_welcome {
    background-color: #FEFFDA;
    display: flex;
+   
 }
 
 #large_logo {
