@@ -8,14 +8,6 @@ body {
    padding:0;
 }
 
-
-.flip-card {
-   background-color: transparent;
-   width: 500px;
-   height: 500px;
-   perspective: 1000px;
- }
-
  
  .flip-card-inner {
    position: relative;
@@ -41,15 +33,19 @@ body {
  }
  
  .flip-card-front {
-   background-color: #bbb;
+   background-color: rgb(255,246,163);
    color: black;
  }
  
  .flip-card-back {
-   background-color: #2980b9;
+   background-color: rgb(97, 111, 36);
    color: white;
    transform: rotateY(180deg);
  }
+
+.link {
+   color:  #f0f275;
+} 
 
 @media only screen and (min-width: 600px) {
    #big_div {
@@ -68,11 +64,32 @@ body {
       height: 1000px;
    }
    #introduction {
-      font-size: 100px;
+      font-size: 150px;
    }
    #learnbody {
-      font-size: 50px;
+      font-size: 100px;
    }
+   #websites {
+      display: flex;
+      justify-content: space-around;
+   }
+   #first_page_text {
+      font-size: 50px;
+      padding: 80px;
+   }
+   #title2 {
+      font-size: 60px;
+   }
+   .websiteimages {
+      height: 500px;
+      width: 500px;
+   }
+   .flip-card {
+      background-color: transparent;
+      width: 550px;
+      height: 550px;
+      perspective: 1000px;
+    }
 }
 
 .sticky {
@@ -101,6 +118,26 @@ body {
    }
    #learnbody {
       font-size: 50px;
+   }
+   #first_page_text {
+      font-size: 15px;
+      text-align: center;
+      padding: 30px;
+   }
+   .websiteimages {
+      height: 300px;
+      width: 300px;
+   }
+   .flip-card {
+      background-color: transparent;
+      width: 350px;
+      height: 350px;
+      perspective: 1000px;
+    }
+    #websites {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
    }
 }
 
@@ -211,8 +248,6 @@ a {
 #first_page_text {
    display: block;
    justify-content: center;
-   padding: 80px;
-   font-size: 25px;
    background-color: #e6e6e0;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
