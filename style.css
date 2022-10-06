@@ -138,6 +138,32 @@ body {
    #fullstack {
       height: 240px;
    }   
+   #career.text {
+      font-size: 30px;
+   }
+   #careerbio {
+      text-align: center;
+      font-size: 40px;
+      margin-top: 2%;
+      margin-bottom: -3%;
+   }
+   #careerOptions {
+      display: flex;
+      text-align: left;
+      justify-content: space-between;
+      font-size: 35px;
+      margin-top: 5%;
+      margin-left: .5%;
+      background-color: #e6e6e0;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      padding: 2%;
+   }
+   .button {
+      font-size: 35px;
+   }
 }
 
 @media only screen and (max-width: 600px) {
@@ -223,6 +249,23 @@ body {
    }
    #price_div {
       font-size: 15px;
+   }
+   #careerbio {
+      margin-left: 2%;
+      margin-top: 7%;
+      margin-bottom: 2%;
+   }
+   #careerOptions {
+      text-align: center;
+      font-size: 15px;
+      margin-top: 5%;
+      margin-left: .5%;
+      background-color: #e6e6e0;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      padding: 2%;
    }
 }
 
@@ -465,29 +508,11 @@ body {
    background-color: white;
 }
 
-#careerOptions {
-   text-align: center;
-   font-size: 15px;
-   margin-top: 5%;
-   margin-left: .5%;
-   background-color: #e6e6e0;
-   border-top-left-radius: 40px;
-   border-bottom-left-radius: 40px;
-   border-top-right-radius: 40px;
-   border-bottom-right-radius: 40px
-}
-
 #levels {
    width: 200px;
    display: flex;
    justify-content: center;
    margin-top: 15%;
-}
-
-#careerbio {
-   margin-left: 2%;
-   margin-top: 7%;
-   margin-bottom: 2%;
 }
 
 #levelsalaries {
@@ -517,10 +542,6 @@ body {
    border-bottom-right-radius: 100px;
    font-size: 25px;
    color: white;
-}
-
-#careerOptions {
-   padding: 2%;
 }
 
 #collegetext {
