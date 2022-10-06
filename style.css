@@ -1,6 +1,7 @@
 html {
    font-family: Arial, Helvetica, sans-serif;
    background-color: rgb(97, 111, 36);
+   scroll-behavior: smooth;
 }
 
 body {
@@ -90,16 +91,53 @@ body {
       height: 550px;
       perspective: 1000px;
     }
-}
-
-.sticky {
-   position:fixed;
-   top: 0;
-   width: 100%;
-}
-
-.sticky + .content {
-   padding-top: 60px
+   #bootcamptext {
+      font-size: 40px;
+   }
+   #images1 {
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      margin-bottom: 6%;
+   }
+   .collegeimg {
+      width: 300px;
+      height: auto;
+   }
+   #sub1 {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2%;
+      font-size: 25px;
+   }
+   #main {
+      margin-top: 200px;
+   }
+   #big_div {
+      position: fixed;
+      top: 0;
+      width: 100%;
+   }
+   #bootcampimages {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   #price_div {
+      font-size: 20px;
+   }
+   #flatitron {
+      height: 240px;
+   }
+   
+   #hack {
+      height: 240px;
+   }
+   
+   #fullstack {
+      height: 240px;
+   }   
 }
 
 @media only screen and (max-width: 600px) {
@@ -138,6 +176,53 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+   }
+   #title2 {
+      text-align: center;
+   }
+   #bootcamptext {
+      font-size: 20px;
+      text-align: center;
+   }
+   #sub1 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 2%;
+      font-size: 20px;
+   }
+   .collegeimg {
+      width: 200px;
+      height: auto;
+   }
+   #images1 {
+      display: flex;
+      flex-direction: column;
+      margin-left: 24%;
+   }
+   #big_div {
+      position: fixed;
+      top: 0;
+      width: 100%;
+   }
+   #flatitron {
+      height: 150px;
+   }
+   
+   #hack {
+      height: 100px;
+   }
+   
+   #fullstack {
+      height: 100px;
+   }   
+   #bootcampimages {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10%;
+   }
+   #price_div {
+      font-size: 15px;
    }
 }
 
@@ -263,19 +348,6 @@ a {
    justify-content: center;
 }
 
-#sub1 {
-   display: flex;
-   justify-content: center;
-   margin-bottom: 2%;
-}
-
-#images1 {
-   height: 170px;
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-}
-
 #sub2 {
    display: flex;
    justify-content: center;
@@ -315,25 +387,6 @@ a {
    background-color: #FEFFDA;
 }
 
-
-
-#bootcampimages {
-   margin-left: 10%;
-   display: flex;
-   justify-content: space-evenly;
-   height: 100px;
-   margin-top: 5%;
-   margin-right: 15%;
-   margin-bottom: 2%;
-}
-
-#price_div {
-   display: flex;
-   justify-content: space-evenly;
-   font-size: 15px;
-   margin-right: 1%;
-}
-
 #learnmore {
    display: flex;
    justify-content: center;
@@ -343,26 +396,9 @@ a {
    margin-top: 5%;
    margin-left: 5%;
    margin-right: 5%;
-
 }
 
-#flatitron {
-   height: 120px;
-}
 
-#hack {
-   margin-left: 20%;
-}
-
-#fullstack {
-   margin-right: 90%;
-
-}
-
-#career.options {
-   display: flex;
-   justify-content: space-evenly;
-}
 
 #creators {
    display: flex;
@@ -430,8 +466,7 @@ body {
 }
 
 #careerOptions {
-   display: flex;
-   justify-content: space-between;
+   text-align: center;
    font-size: 15px;
    margin-top: 5%;
    margin-left: .5%;
