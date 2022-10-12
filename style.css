@@ -49,6 +49,9 @@ body {
 } 
 
 @media only screen and (min-width: 600px) {
+   body {
+      zoom: 50%;
+   }
    #big_div {
       font-size: 50px;
    }
@@ -282,6 +285,7 @@ body {
    border-bottom-left-radius: 20px;
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
+   z-index: 10;
 }
 
 
