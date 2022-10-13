@@ -10,8 +10,9 @@ body {
    max-width: 100%;
    overflow-x: hidden;
 }
-
- 
+h2 em {
+   color: blue;
+}
  .flip-card-inner {
    position: relative;
    width: 100%;
