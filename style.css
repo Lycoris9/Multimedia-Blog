@@ -1,6 +1,6 @@
 html {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: rgb(97, 111, 36);
+   background-color: rgb(74, 209, 200);
    scroll-behavior: smooth;
 }
 
@@ -37,18 +37,18 @@ h2 em {
  }
  
  .flip-card-front {
-   background-color: rgb(255,246,163);
+   background-color: rgb(163, 249, 255);
    color: black;
  }
  
  .flip-card-back {
-   background-color: rgb(97, 111, 36);
+   background-color: rgb(53, 93, 255);
    color: white;
    transform: rotateY(180deg);
  }
 
 .link {
-   color:  #f0f275;
+   color:  #f275f2;
 } 
 
 @media only screen and (min-width: 600px) {
@@ -297,7 +297,7 @@ a:link {
 
 #big_div {
    font-family: Arial, Helvetica, sans-serif;
-   background-color: #f0f275;
+   background-color: #75f2ee;
    color: rgb(255, 255, 255);
    padding-top: 1%;
    padding-bottom: 0%;
@@ -341,7 +341,7 @@ a:link {
    }
 
    50% {
-      border-color: orange;
+      border-color: rgb(255, 0, 170);
    }
 }
 
@@ -392,7 +392,7 @@ a {
 
 #bottom_first {
    margin-top: -1%;
-   background-color: #fcfcf1;
+   background-color: #f1fafc;
 
 }
 
@@ -407,7 +407,7 @@ a {
 #first_page_text {
    display: block;
    justify-content: center;
-   background-color: #e6e6e0;
+   background-color: #e0e4e6;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
    border-top-right-radius: 20px;
